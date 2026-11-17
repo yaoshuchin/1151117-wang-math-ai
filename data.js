@@ -1,4 +1,4 @@
-// Generated Padlet Board Dataset
+// Generated Padlet Board Dataset with Real Local PDFs
 window.PADLET_DATA = {
   "title": "放數學一馬－AI 攜手成為千里馬的伯樂",
   "subtitle": "教育部學習扶助科技化評量與 AI 協作分析 · 師資培育中心兼任講師 王玉珍",
@@ -26,21 +26,15 @@ window.PADLET_DATA = {
               "text": ""
             }
           ],
-          "imgs": [
-            {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            }
-          ],
+          "imgs": [],
+          "pdf_file": null,
           "category": {
             "key": "green",
             "name": "重點說明與角色",
             "badgeClass": "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
             "borderClass": "border-emerald-500/50",
             "cardBg": "bg-emerald-950/40"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "學習扶助科技化評量平台",
@@ -62,24 +56,19 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/2/image.webp?t=ar_1%2Cc_lfill%2Cdpr_1%2Cg_auto%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2F8894e04de22d44d8ac908c97d6277a87c018c929%2F44f922ad7b511806f40d475452f1f0fa-h-2522c878ec54c5963b3060eeded403b5.gif",
               "alt": "",
               "local_src": "assets/img_75ca8d4297e2.gif"
             }
           ],
+          "pdf_file": null,
           "category": {
             "key": "red",
             "name": "平台與功能說明",
             "badgeClass": "bg-rose-500/20 text-rose-300 border-rose-500/40",
             "borderClass": "border-rose-500/50",
             "cardBg": "bg-rose-950/40"
-          },
-          "is_prompt": false
+          }
         }
       ]
     },
@@ -100,21 +89,15 @@ window.PADLET_DATA = {
               "text": ""
             }
           ],
-          "imgs": [
-            {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            }
-          ],
+          "imgs": [],
+          "pdf_file": null,
           "category": {
             "key": "green",
             "name": "重點說明與角色",
             "badgeClass": "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
             "borderClass": "border-emerald-500/50",
             "cardBg": "bg-emerald-950/40"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "看結果、找問題 → 做診斷、給支持 → 再評量、調整行動",
@@ -136,24 +119,19 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/3/image.webp?t=c_limit%2Cdpr_1%2Ch_136%2Cw_240&url=https%3A%2F%2Fu1.padletusercontent.com%2Fuploads%2Fpadlet-uploads-usc1%2F1726799469%2F1f04a1559bd56f2fc741f0032acc4c25%2Fimage.png%3Fexpiry_token%3D5WaHZRdGG3LkUVQGy3SZ-zdRtq89aJeottSBaF_Hii8dmxJqYDvE2-MDbblcM-ZrVekXW99RReKkJFIoMoKio27U-HQ4zzfBnteO8NDRFo1SBhAq-m_KOdvuDlnol1FY-NaIRDKGBPt-MJEXSCPc4PJQ8ZUdNXacieQEzdc8svKjC0kC9hJnhtebqQVN33YxCZEE9-rYwQrIsmr-nwgAZQ%3D%3D",
               "alt": "",
               "local_src": "assets/img_76c4bd2b1935.png"
             }
           ],
+          "pdf_file": null,
           "category": {
             "key": "green",
             "name": "重點說明與角色",
             "badgeClass": "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
             "borderClass": "border-emerald-500/50",
             "cardBg": "bg-emerald-950/40"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "一定要有的資料",
@@ -169,21 +147,15 @@ window.PADLET_DATA = {
               "text": ""
             }
           ],
-          "imgs": [
-            {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            }
-          ],
+          "imgs": [],
+          "pdf_file": null,
           "category": {
             "key": "green",
             "name": "重點說明與角色",
             "badgeClass": "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
             "borderClass": "border-emerald-500/50",
             "cardBg": "bg-emerald-950/40"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "建議可以補充的資料",
@@ -199,21 +171,15 @@ window.PADLET_DATA = {
               "text": ""
             }
           ],
-          "imgs": [
-            {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            }
-          ],
+          "imgs": [],
+          "pdf_file": null,
           "category": {
             "key": "green",
             "name": "重點說明與角色",
             "badgeClass": "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
             "borderClass": "border-emerald-500/50",
             "cardBg": "bg-emerald-950/40"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "提供 AI 資料前的處理",
@@ -229,29 +195,23 @@ window.PADLET_DATA = {
               "text": ""
             }
           ],
-          "imgs": [
-            {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            }
-          ],
+          "imgs": [],
+          "pdf_file": null,
           "category": {
             "key": "green",
             "name": "重點說明與角色",
             "badgeClass": "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
             "borderClass": "border-emerald-500/50",
             "cardBg": "bg-emerald-950/40"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "數學領綱",
           "body": "",
           "body_html": "",
           "color_class": "bg-oceanic-200",
-          "att_name": "",
-          "att_cat": "PDF",
+          "att_name": "數學領綱.pdf",
+          "att_cat": "PDF 文件 · 1.68 MB",
           "att_caption": "",
           "links": [
             {
@@ -265,32 +225,29 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1.414285714%2Cc_lfill%2Cdpr_1%2Cg_north%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2Fa28625d0764268e15c0c7ed7d9399d1e6ad8bcf3%2F1ceeec3a7dd7620c8bbd8f21b2ff9c63-h-bfca7b5c27267318f8e1112ace7094bc.png",
               "alt": "",
               "local_src": "assets/img_49546cf141fb.png"
             }
           ],
+          "pdf_file": "assets/pdf/數學領綱.pdf",
+          "has_pdf": true,
+          "pdf_size": "1.68 MB",
           "category": {
             "key": "blue",
             "name": "必須提供 AI 的資料",
             "badgeClass": "bg-sky-500/20 text-sky-300 border-sky-500/40",
             "borderClass": "border-sky-500/50",
             "cardBg": "bg-sky-950/40"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "數學學習內容解析",
           "body": "",
           "body_html": "",
           "color_class": "bg-oceanic-200",
-          "att_name": "17 MB",
-          "att_cat": "391PDF",
+          "att_name": "數學領域課程手冊_國小篇.pdf",
+          "att_cat": "PDF 文件 · 17.05 MB",
           "att_caption": "數學領域課程手冊-僅需要印國小部分p.29-p",
           "links": [
             {
@@ -304,24 +261,21 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Cw_476&url=https%3A%2F%2Fpadlet.net%2Fbeethoven%2Ffallbacks%2F220105%2Ffile%2Flight-blue.png",
               "alt": "",
               "local_src": "assets/img_9529b0a10c58.png"
             }
           ],
+          "pdf_file": "assets/pdf/數學領域課程手冊_國小篇.pdf",
+          "has_pdf": true,
+          "pdf_size": "17.05 MB",
           "category": {
             "key": "blue",
             "name": "必須提供 AI 的資料",
             "badgeClass": "bg-sky-500/20 text-sky-300 border-sky-500/40",
             "borderClass": "border-sky-500/50",
             "cardBg": "bg-sky-950/40"
-          },
-          "is_prompt": false
+          }
         }
       ]
     },
@@ -342,21 +296,15 @@ window.PADLET_DATA = {
               "text": ""
             }
           ],
-          "imgs": [
-            {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            }
-          ],
+          "imgs": [],
+          "pdf_file": null,
           "category": {
             "key": "green",
             "name": "重點說明與角色",
             "badgeClass": "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
             "borderClass": "border-emerald-500/50",
             "cardBg": "bg-emerald-950/40"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "AI協作提示詞-整理學校整體學習概況",
@@ -372,13 +320,8 @@ window.PADLET_DATA = {
               "text": ""
             }
           ],
-          "imgs": [
-            {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            }
-          ],
+          "imgs": [],
+          "pdf_file": null,
           "category": {
             "key": "yellow",
             "name": "AI 協作提示詞",
@@ -402,13 +345,8 @@ window.PADLET_DATA = {
               "text": ""
             }
           ],
-          "imgs": [
-            {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            }
-          ],
+          "imgs": [],
+          "pdf_file": null,
           "category": {
             "key": "yellow",
             "name": "AI 協作提示詞",
@@ -437,13 +375,8 @@ window.PADLET_DATA = {
               "text": ""
             }
           ],
-          "imgs": [
-            {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            }
-          ],
+          "imgs": [],
+          "pdf_file": null,
           "category": {
             "key": "yellow",
             "name": "AI 協作提示詞",
@@ -458,8 +391,8 @@ window.PADLET_DATA = {
           "body": "",
           "body_html": "",
           "color_class": "bg-park-200",
-          "att_name": "",
-          "att_cat": "PDF",
+          "att_name": "202605-各年級數學學習銜接問題分析.pdf",
+          "att_cat": "PDF 文件 · 159 KB",
           "att_caption": "202605",
           "links": [
             {
@@ -473,24 +406,21 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1.414285714%2Cc_lfill%2Cdpr_1%2Cg_north%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2F45e625e6aabb185027a9ecf1934ada8696f1806f%2Fad974af2cc13aeaf3c6e942f09e6b79f-h-9723b551ce82e57af95bed0c3d5b8013.png",
               "alt": "",
               "local_src": "assets/img_3f2143722020.png"
             }
           ],
+          "pdf_file": "assets/pdf/202605-各年級數學學習銜接問題分析.pdf",
+          "has_pdf": true,
+          "pdf_size": "159 KB",
           "category": {
             "key": "green",
             "name": "重點說明與角色",
             "badgeClass": "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
             "borderClass": "border-emerald-500/50",
             "cardBg": "bg-emerald-950/40"
-          },
-          "is_prompt": false
+          }
         }
       ]
     },
@@ -511,13 +441,8 @@ window.PADLET_DATA = {
               "text": ""
             }
           ],
-          "imgs": [
-            {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            }
-          ],
+          "imgs": [],
+          "pdf_file": null,
           "category": {
             "key": "yellow",
             "name": "AI 協作提示詞",
@@ -541,13 +466,8 @@ window.PADLET_DATA = {
               "text": ""
             }
           ],
-          "imgs": [
-            {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            }
-          ],
+          "imgs": [],
+          "pdf_file": null,
           "category": {
             "key": "yellow",
             "name": "AI 協作提示詞",
@@ -562,8 +482,8 @@ window.PADLET_DATA = {
           "body": "",
           "body_html": "",
           "color_class": "bg-light-ui-200",
-          "att_name": "",
-          "att_cat": "PDF",
+          "att_name": "202605篩選測驗結果運用-G2.pdf",
+          "att_cat": "PDF 文件 · 11.41 MB",
           "att_caption": "202605 -",
           "links": [
             {
@@ -577,32 +497,29 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1.414285714%2Cc_lfill%2Cdpr_1%2Cg_north%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2F29cfd8a67d9f6016daa2a20e2a3a9d981fc4a2db%2F01c0ec315e824813fca363ff606bd6a3-h-8e80c9080924f22d24c42edfc8d3e2b1.png",
               "alt": "",
               "local_src": "assets/img_95654c65c9d1.png"
             }
           ],
+          "pdf_file": "assets/pdf/202605篩選測驗結果運用-G2.pdf",
+          "has_pdf": true,
+          "pdf_size": "11.41 MB",
           "category": {
             "key": "gray",
             "name": "學習教材與資源",
             "badgeClass": "bg-slate-500/20 text-slate-300 border-slate-500/40",
             "borderClass": "border-slate-600/50",
             "cardBg": "bg-slate-900/60"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "202605篩選測驗結果運用-G4",
           "body": "",
           "body_html": "",
           "color_class": "bg-light-ui-200",
-          "att_name": "",
-          "att_cat": "PDF",
+          "att_name": "202605篩選測驗結果運用-G4.pdf",
+          "att_cat": "PDF 文件 · 10.87 MB",
           "att_caption": "202605 -",
           "links": [
             {
@@ -616,32 +533,29 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1.414285714%2Cc_lfill%2Cdpr_1%2Cg_north%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2Fb6906904eb1e2bfa91c62f642283179a824ea5a5%2F69a4e3630b01c7242025db771d97a4fd-h-2ecbf4f15c7e8d336ee7d7a976ec6582.png",
               "alt": "",
               "local_src": "assets/img_c9f8fd536102.png"
             }
           ],
+          "pdf_file": "assets/pdf/202605篩選測驗結果運用-G4.pdf",
+          "has_pdf": true,
+          "pdf_size": "10.87 MB",
           "category": {
             "key": "gray",
             "name": "學習教材與資源",
             "badgeClass": "bg-slate-500/20 text-slate-300 border-slate-500/40",
             "borderClass": "border-slate-600/50",
             "cardBg": "bg-slate-900/60"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "202605篩選測驗結果運用-G5",
           "body": "",
           "body_html": "",
           "color_class": "bg-light-ui-200",
-          "att_name": "",
-          "att_cat": "PDF",
+          "att_name": "202605篩選測驗結果運用-G5.pdf",
+          "att_cat": "PDF 文件 · 18.08 MB",
           "att_caption": "G5",
           "links": [
             {
@@ -655,24 +569,21 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1.414285714%2Cc_lfill%2Cdpr_1%2Cg_north%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2F129d78cb731f06f5803e7836f3644886a24de427%2F333f3ad3a53c6f98fff71e399662ff35-h-42ffb28ff4d4e7cda23a88ffd074d465.png",
               "alt": "",
               "local_src": "assets/img_d8a350b50b63.png"
             }
           ],
+          "pdf_file": "assets/pdf/202605篩選測驗結果運用-G5.pdf",
+          "has_pdf": true,
+          "pdf_size": "18.08 MB",
           "category": {
             "key": "gray",
             "name": "學習教材與資源",
             "badgeClass": "bg-slate-500/20 text-slate-300 border-slate-500/40",
             "borderClass": "border-slate-600/50",
             "cardBg": "bg-slate-900/60"
-          },
-          "is_prompt": false
+          }
         }
       ]
     },
@@ -693,13 +604,8 @@ window.PADLET_DATA = {
               "text": ""
             }
           ],
-          "imgs": [
-            {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            }
-          ],
+          "imgs": [],
+          "pdf_file": null,
           "category": {
             "key": "yellow",
             "name": "AI 協作提示詞",
@@ -728,13 +634,8 @@ window.PADLET_DATA = {
               "text": ""
             }
           ],
-          "imgs": [
-            {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            }
-          ],
+          "imgs": [],
+          "pdf_file": null,
           "category": {
             "key": "yellow",
             "name": "AI 協作提示詞",
@@ -754,8 +655,8 @@ window.PADLET_DATA = {
           "body": "",
           "body_html": "",
           "color_class": "bg-scarlet-200",
-          "att_name": "",
-          "att_cat": "PDF",
+          "att_name": "基本學習內容脈絡.pdf",
+          "att_cat": "PDF 文件 · 4.87 MB",
           "att_caption": "- 20210809",
           "links": [
             {
@@ -769,32 +670,29 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1.414285714%2Cc_lfill%2Cdpr_1%2Cg_north%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2F7cebdc7550d9586f3d76efc9d1a78fafd3563ba9%2Ffee0f0a78c7f2f63530bdd711adffbd2-h-12c55c8b6c70c3311ba2f4d84f530d4e.png",
               "alt": "",
               "local_src": "assets/img_a6142d74dad0.png"
             }
           ],
+          "pdf_file": "assets/pdf/基本學習內容脈絡.pdf",
+          "has_pdf": true,
+          "pdf_size": "4.87 MB",
           "category": {
             "key": "red",
             "name": "平台與功能說明",
             "badgeClass": "bg-rose-500/20 text-rose-300 border-rose-500/40",
             "borderClass": "border-rose-500/50",
             "cardBg": "bg-rose-950/40"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "一年級基本學習內容",
           "body": "",
           "body_html": "",
           "color_class": "bg-light-ui-200",
-          "att_name": "",
-          "att_cat": "PDF",
+          "att_name": "一年級基本學習內容.pdf",
+          "att_cat": "PDF 文件 · 10.75 MB",
           "att_caption": "1 110",
           "links": [
             {
@@ -808,32 +706,29 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1.414285714%2Cc_lfill%2Cdpr_1%2Cg_north%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2F0c4a819524ccb577a19ad67adea87da03142b7ab%2Ffa30ee5bb79dfe1c33b3c141d8682e22-h-476f8fd38f5cc6bf42adab14c567648f.png",
               "alt": "",
               "local_src": "assets/img_f0e43be06877.png"
             }
           ],
+          "pdf_file": "assets/pdf/一年級基本學習內容.pdf",
+          "has_pdf": true,
+          "pdf_size": "10.75 MB",
           "category": {
             "key": "gray",
             "name": "學習教材與資源",
             "badgeClass": "bg-slate-500/20 text-slate-300 border-slate-500/40",
             "borderClass": "border-slate-600/50",
             "cardBg": "bg-slate-900/60"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "二年級基本學習內容",
           "body": "",
           "body_html": "",
           "color_class": "bg-light-ui-200",
-          "att_name": "",
-          "att_cat": "PDF",
+          "att_name": "二年級基本學習內容.pdf",
+          "att_cat": "PDF 文件 · 26.14 MB",
           "att_caption": "2 110",
           "links": [
             {
@@ -847,32 +742,29 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1.414285714%2Cc_lfill%2Cdpr_1%2Cg_north%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2Fadfc0c8911ab2a34cbf5e4253a8cbc2890fc612f%2Fb192e297c986cdce352cfb458a18a096-h-c3c1df4509e16dbfe1225923b0c23316.png",
               "alt": "",
               "local_src": "assets/img_bce497d2b082.png"
             }
           ],
+          "pdf_file": "assets/pdf/二年級基本學習內容.pdf",
+          "has_pdf": true,
+          "pdf_size": "26.14 MB",
           "category": {
             "key": "gray",
             "name": "學習教材與資源",
             "badgeClass": "bg-slate-500/20 text-slate-300 border-slate-500/40",
             "borderClass": "border-slate-600/50",
             "cardBg": "bg-slate-900/60"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "三年級基本學習內容",
           "body": "",
           "body_html": "",
           "color_class": "bg-light-ui-200",
-          "att_name": "",
-          "att_cat": "PDF",
+          "att_name": "三年級基本學習內容.pdf",
+          "att_cat": "PDF 文件 · 27.3 MB",
           "att_caption": "3 110",
           "links": [
             {
@@ -886,32 +778,29 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1.414285714%2Cc_lfill%2Cdpr_1%2Cg_north%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2Faa4689e50397b1ad86fb43488e855b699b511bb9%2Fcce379980dbf9491cc2b0ce27c4de31e-h-082701aaf7a57c1ea4472603d334daff.png",
               "alt": "",
               "local_src": "assets/img_491c5fb35fa1.png"
             }
           ],
+          "pdf_file": "assets/pdf/三年級基本學習內容.pdf",
+          "has_pdf": true,
+          "pdf_size": "27.3 MB",
           "category": {
             "key": "gray",
             "name": "學習教材與資源",
             "badgeClass": "bg-slate-500/20 text-slate-300 border-slate-500/40",
             "borderClass": "border-slate-600/50",
             "cardBg": "bg-slate-900/60"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "四年級基本學習內容",
           "body": "",
           "body_html": "",
           "color_class": "bg-light-ui-200",
-          "att_name": "",
-          "att_cat": "PDF",
+          "att_name": "四年級基本學習內容.pdf",
+          "att_cat": "PDF 文件 · 27.23 MB",
           "att_caption": "4 110",
           "links": [
             {
@@ -925,32 +814,29 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1.414285714%2Cc_lfill%2Cdpr_1%2Cg_north%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2F5a64a78f8b12f2994ddceb8acfbb246f9b60fab5%2Fb46b1cf212141f14ee84494353871e29-h-07026d764950428aba16cdff594e4162.png",
               "alt": "",
               "local_src": "assets/img_1d1abc5c2760.png"
             }
           ],
+          "pdf_file": "assets/pdf/四年級基本學習內容.pdf",
+          "has_pdf": true,
+          "pdf_size": "27.23 MB",
           "category": {
             "key": "gray",
             "name": "學習教材與資源",
             "badgeClass": "bg-slate-500/20 text-slate-300 border-slate-500/40",
             "borderClass": "border-slate-600/50",
             "cardBg": "bg-slate-900/60"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "五年級基本學習內容",
           "body": "",
           "body_html": "",
           "color_class": "bg-light-ui-200",
-          "att_name": "",
-          "att_cat": "PDF",
+          "att_name": "五年級基本學習內容.pdf",
+          "att_cat": "PDF 文件 · 15.74 MB",
           "att_caption": "5 110",
           "links": [
             {
@@ -964,32 +850,29 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1.414285714%2Cc_lfill%2Cdpr_1%2Cg_north%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2F5c5a236586a79b34541ddbda4135911a7f6f359b%2F056303b9cc3494ddfd32dd5da5b53805-h-10e8723cae5257446846142197d91f27.png",
               "alt": "",
               "local_src": "assets/img_539e1954c834.png"
             }
           ],
+          "pdf_file": "assets/pdf/五年級基本學習內容.pdf",
+          "has_pdf": true,
+          "pdf_size": "15.74 MB",
           "category": {
             "key": "gray",
             "name": "學習教材與資源",
             "badgeClass": "bg-slate-500/20 text-slate-300 border-slate-500/40",
             "borderClass": "border-slate-600/50",
             "cardBg": "bg-slate-900/60"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "六年級基本學習內容",
           "body": "",
           "body_html": "",
           "color_class": "bg-light-ui-200",
-          "att_name": "",
-          "att_cat": "PDF",
+          "att_name": "六年級基本學習內容.pdf",
+          "att_cat": "PDF 文件 · 12.69 MB",
           "att_caption": "6 110",
           "links": [
             {
@@ -1003,24 +886,21 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1.414285714%2Cc_lfill%2Cdpr_1%2Cg_north%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2F944e2fbca428ff7d1be4ea089ebf46e352169441%2F6c87581795f709aeffd3212fab231ecb-h-9e8f1e79e5c3ef2b4993dcdc0c503c45.png",
               "alt": "",
               "local_src": "assets/img_ef8a1c3a8b80.png"
             }
           ],
+          "pdf_file": "assets/pdf/六年級基本學習內容.pdf",
+          "has_pdf": true,
+          "pdf_size": "12.69 MB",
           "category": {
             "key": "gray",
             "name": "學習教材與資源",
             "badgeClass": "bg-slate-500/20 text-slate-300 border-slate-500/40",
             "borderClass": "border-slate-600/50",
             "cardBg": "bg-slate-900/60"
-          },
-          "is_prompt": false
+          }
         }
       ]
     },
@@ -1047,24 +927,19 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1.25%2Cc_lfill%2Cdpr_1%2Cg_auto%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2Fbd138836f4b0711a4e6c27d7e43878395f4501cd%2Fbhwebsnap-b54663d41d2bc93264ee0d56bcec0ba6da8e5975-h-fd8e0b843055faa833eb23e1ed5176e3.png",
               "alt": "",
               "local_src": "assets/img_6decac235779.png"
             }
           ],
+          "pdf_file": null,
           "category": {
             "key": "gray",
             "name": "學習教材與資源",
             "badgeClass": "bg-slate-500/20 text-slate-300 border-slate-500/40",
             "borderClass": "border-slate-600/50",
             "cardBg": "bg-slate-900/60"
-          },
-          "is_prompt": false
+          }
         },
         {
           "subject": "因材網",
@@ -1086,24 +961,19 @@ window.PADLET_DATA = {
           ],
           "imgs": [
             {
-              "src": "https://v1.padlet.pics/3/image.webp?t=c_thumb%2Cdpr_1%2Cg_auto%2Ch_24%2Cw_24&url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAOh14GjoEbGAhzs8KFNIQ2807VVW4RiJBEbY0PytEFIT%3Ds96-c",
-              "alt": "師資培育中心 兼任講師王玉珍 的頭像",
-              "local_src": "assets/img_5c78d555e9b0.webp"
-            },
-            {
               "src": "https://v1.padlet.pics/1/image.webp?t=ar_1%2Cc_lfill%2Cdpr_1%2Cg_auto%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2F6507a478c9d920b3ec4977cb4c0c779672b4b6f1%2Faf0bad20241a17e91f20f0581261233d-h-954dff0ff05895e9888028e2f703166c.png",
               "alt": "",
               "local_src": "assets/img_dac9d6e042d5.png"
             }
           ],
+          "pdf_file": null,
           "category": {
             "key": "gray",
             "name": "學習教材與資源",
             "badgeClass": "bg-slate-500/20 text-slate-300 border-slate-500/40",
             "borderClass": "border-slate-600/50",
             "cardBg": "bg-slate-900/60"
-          },
-          "is_prompt": false
+          }
         }
       ]
     }

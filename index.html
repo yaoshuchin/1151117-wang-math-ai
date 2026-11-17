@@ -22,13 +22,6 @@
         extend: {
           fontFamily: {
             sans: ['"Noto Sans TC"', 'Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
-          },
-          colors: {
-            brand: {
-              50: '#f0fdf4',
-              500: '#22c55e',
-              600: '#16a34a',
-            }
           }
         }
       }
@@ -41,62 +34,56 @@
   <style>
     /* Custom Scrollbars */
     ::-webkit-scrollbar {
-      width: 8px;
-      height: 8px;
+      width: 7px;
+      height: 7px;
     }
     ::-webkit-scrollbar-track {
-      background: rgba(15, 23, 42, 0.6);
+      background: rgba(15, 23, 42, 0.4);
       border-radius: 4px;
     }
     ::-webkit-scrollbar-thumb {
-      background: rgba(148, 163, 184, 0.35);
+      background: rgba(255, 255, 255, 0.35);
       border-radius: 4px;
     }
     ::-webkit-scrollbar-thumb:hover {
-      background: rgba(148, 163, 184, 0.55);
+      background: rgba(255, 255, 255, 0.55);
     }
     
     body {
       font-family: 'Noto Sans TC', Inter, sans-serif;
-      background-color: #0b1120;
+      background-image: url('assets/wallpaper.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
       min-height: 100vh;
       color: #f1f5f9;
       overflow-x: hidden;
     }
 
-    .board-bg {
-      position: fixed;
-      inset: 0;
-      background-image: url('assets/wallpaper.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      z-index: 0;
+    /* Column Container Glass */
+    .column-box {
+      background: rgba(15, 23, 42, 0.82);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      max-height: calc(100vh - 120px);
     }
 
-    .board-overlay {
-      position: fixed;
-      inset: 0;
-      background: linear-gradient(180deg, rgba(11, 17, 32, 0.82) 0%, rgba(15, 23, 42, 0.88) 100%);
-      backdrop-filter: blur(4px);
-      z-index: 1;
-    }
-
+    /* Card Glass */
     .card-glass {
-      background: rgba(15, 23, 42, 0.75);
-      backdrop-filter: blur(12px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      background: rgba(30, 41, 59, 0.85);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
     .card-glass:hover {
       transform: translateY(-3px);
-      border-color: rgba(255, 255, 255, 0.25);
-      box-shadow: 0 16px 30px -10px rgba(0, 0, 0, 0.6);
-    }
-
-    .column-container {
-      max-height: calc(100vh - 130px);
+      background: rgba(30, 41, 59, 0.95);
+      border-color: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 14px 28px -8px rgba(0, 0, 0, 0.65);
     }
 
     mark {
@@ -117,26 +104,23 @@
     }
   </style>
 
-  <!-- Dataset -->
+  <!-- Board Dataset -->
   <script src="data.js"></script>
 </head>
 
 <body class="relative min-h-screen">
-  <!-- Background Wallpaper & Overlay -->
-  <div class="board-bg"></div>
-  <div class="board-overlay"></div>
 
   <!-- Main App Shell -->
   <div id="app" class="relative z-10 flex flex-col h-screen select-text">
     
     <!-- Top Navigation Bar -->
-    <header class="flex-none bg-slate-900/90 backdrop-blur-md border-b border-slate-700/60 px-4 py-2.5 shadow-lg">
+    <header class="flex-none bg-slate-900/90 backdrop-blur-md border-b border-slate-700/60 px-4 py-2.5 shadow-xl">
       <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
         
         <!-- Left: Logo & Board Info -->
         <div class="flex items-center gap-3">
-          <div class="relative group cursor-pointer" onclick="openWallpaperModal()">
-            <img src="assets/logo.png" alt="Logo" class="w-10 h-10 rounded-xl object-cover ring-2 ring-emerald-500/50 shadow-md group-hover:scale-105 transition-transform">
+          <div class="relative group cursor-pointer">
+            <img src="assets/logo.png" alt="Logo" class="w-10 h-10 rounded-xl object-cover ring-2 ring-emerald-500/60 shadow-md group-hover:scale-105 transition-transform">
             <span class="absolute -bottom-1 -right-1 bg-emerald-500 w-3 h-3 rounded-full border-2 border-slate-900"></span>
           </div>
           <div>
@@ -149,19 +133,19 @@
               </span>
             </div>
             <p class="text-xs text-slate-400 hidden sm:block">
-              教育部學習扶助科技化評量與 AI 協作分析看板 · 9 大專欄 · 30 張精選卡片
+              教育部學習扶助科技化評量與 AI 協作看板 · 包含全部原始 PDF 下載 · 純文字與圖文分離
             </p>
           </div>
         </div>
 
-        <!-- Center: Search & Filter Controls -->
+        <!-- Center: Search Controls -->
         <div class="flex items-center gap-2 flex-1 max-w-md">
           <div class="relative w-full">
             <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2"></i>
             <input 
               type="text" 
               id="search-input" 
-              placeholder="搜尋卡片、提示詞、指標或關鍵字..." 
+              placeholder="搜尋卡片、提示詞、課綱或關鍵字..." 
               class="w-full pl-9 pr-8 py-1.5 bg-slate-800/90 text-sm text-slate-100 placeholder-slate-400 rounded-lg border border-slate-600 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
               oninput="handleSearch(this.value)"
             >
@@ -190,12 +174,10 @@
 
           <!-- Filter Category Button Group -->
           <div class="hidden xl:flex items-center bg-slate-800/80 p-0.5 rounded-lg border border-slate-700 text-xs">
-            <button onclick="filterCategory('all')" class="cat-btn active px-2.5 py-1 rounded font-medium text-slate-300 hover:text-white" data-cat="all">全部</button>
+            <button onclick="filterCategory('all')" class="cat-btn active px-2.5 py-1 rounded font-medium text-slate-300 hover:text-white" data-cat="all">全部 (30)</button>
             <button onclick="filterCategory('yellow')" class="cat-btn px-2.5 py-1 rounded font-medium text-amber-400 hover:text-amber-300" data-cat="yellow">提示詞 (7)</button>
-            <button onclick="filterCategory('green')" class="cat-btn px-2.5 py-1 rounded font-medium text-emerald-400 hover:text-emerald-300" data-cat="green">重點說明 (7)</button>
-            <button onclick="filterCategory('blue')" class="cat-btn px-2.5 py-1 rounded font-medium text-sky-400 hover:text-sky-300" data-cat="blue">必備資料 (2)</button>
-            <button onclick="filterCategory('red')" class="cat-btn px-2.5 py-1 rounded font-medium text-rose-400 hover:text-rose-300" data-cat="red">平台功能 (2)</button>
-            <button onclick="filterCategory('gray')" class="cat-btn px-2.5 py-1 rounded font-medium text-slate-400 hover:text-slate-300" data-cat="gray">學習內容 (12)</button>
+            <button onclick="filterCategory('pdf')" class="cat-btn px-2.5 py-1 rounded font-medium text-rose-400 hover:text-rose-300" data-cat="pdf">PDF 文件 (13)</button>
+            <button onclick="filterCategory('pure_text')" class="cat-btn px-2.5 py-1 rounded font-medium text-emerald-400 hover:text-emerald-300" data-cat="pure_text">純文字 (13)</button>
           </div>
 
           <!-- Original Padlet Link -->
@@ -214,7 +196,7 @@
           <button 
             onclick="lockGate()" 
             title="上鎖回到門禁" 
-            class="flex items-center gap-1 px-2.5 py-1.5 bg-rose-950/40 hover:bg-rose-900/60 text-rose-300 rounded-lg text-xs font-medium border border-rose-800/50 transition-colors"
+            class="flex items-center gap-1 px-2.5 py-1.5 bg-rose-950/50 hover:bg-rose-900/70 text-rose-300 rounded-lg text-xs font-medium border border-rose-800/50 transition-colors"
           >
             <i data-lucide="lock" class="w-3.5 h-3.5"></i>
             <span class="hidden md:inline">上鎖</span>
@@ -226,23 +208,21 @@
       <!-- Category Filter Pills (Mobile / Tablet) -->
       <div class="flex xl:hidden items-center gap-1.5 overflow-x-auto py-1.5 mt-2 border-t border-slate-800 no-scrollbar text-xs">
         <button onclick="filterCategory('all')" class="cat-btn active whitespace-nowrap px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 font-medium" data-cat="all">全部 (30)</button>
-        <button onclick="filterCategory('yellow')" class="cat-btn whitespace-nowrap px-2.5 py-1 rounded-md bg-slate-800 text-amber-400 font-medium" data-cat="yellow">🟡 提示詞 (7)</button>
-        <button onclick="filterCategory('green')" class="cat-btn whitespace-nowrap px-2.5 py-1 rounded-md bg-slate-800 text-emerald-400 font-medium" data-cat="green">🟢 重點說明 (7)</button>
-        <button onclick="filterCategory('blue')" class="cat-btn whitespace-nowrap px-2.5 py-1 rounded-md bg-slate-800 text-sky-400 font-medium" data-cat="blue">🔵 必備資料 (2)</button>
-        <button onclick="filterCategory('red')" class="cat-btn whitespace-nowrap px-2.5 py-1 rounded-md bg-slate-800 text-rose-400 font-medium" data-cat="red">🔴 平台功能 (2)</button>
-        <button onclick="filterCategory('gray')" class="cat-btn whitespace-nowrap px-2.5 py-1 rounded-md bg-slate-800 text-slate-400 font-medium" data-cat="gray">⚪ 教材資源 (12)</button>
+        <button onclick="filterCategory('yellow')" class="cat-btn whitespace-nowrap px-2.5 py-1 rounded-md bg-slate-800 text-amber-400 font-medium" data-cat="yellow">🟡 AI 提示詞 (7)</button>
+        <button onclick="filterCategory('pdf')" class="cat-btn whitespace-nowrap px-2.5 py-1 rounded-md bg-slate-800 text-rose-400 font-medium" data-cat="pdf">📄 PDF 文件 (13)</button>
+        <button onclick="filterCategory('pure_text')" class="cat-btn whitespace-nowrap px-2.5 py-1 rounded-md bg-slate-800 text-emerald-400 font-medium" data-cat="pure_text">📝 純文字卡片 (13)</button>
       </div>
     </header>
 
     <!-- Board Horizontal Scroll Canvas -->
     <main class="flex-1 overflow-x-auto overflow-y-hidden p-4 sm:p-6">
       <div id="board-columns" class="inline-flex gap-5 h-full items-start">
-        <!-- Columns will be injected by JavaScript -->
+        <!-- Injected via JavaScript -->
       </div>
     </main>
 
     <!-- Footer Stats Strip -->
-    <footer class="flex-none bg-slate-900/80 backdrop-blur-sm border-t border-slate-800/80 px-4 py-1.5 text-xs text-slate-400 flex items-center justify-between">
+    <footer class="flex-none bg-slate-900/85 backdrop-blur-md border-t border-slate-800/80 px-4 py-1.5 text-xs text-slate-400 flex items-center justify-between">
       <div class="flex items-center gap-4">
         <span>講者：師資培育中心 兼任講師 王玉珍</span>
         <span class="hidden sm:inline text-slate-600">|</span>
@@ -251,7 +231,7 @@
       <div class="flex items-center gap-3">
         <span id="stat-visible-cards">顯示 30 / 30 張卡片</span>
         <span class="text-slate-600">|</span>
-        <span class="text-emerald-400 font-medium">門禁安全保護中</span>
+        <span class="text-emerald-400 font-medium">13 份原始 PDF 全部就緒</span>
       </div>
     </footer>
 
@@ -259,7 +239,7 @@
 
   <!-- ==================== Lightbox / Card Detail Modal ==================== -->
   <div id="card-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md">
-    <div class="relative w-full max-w-3xl max-h-[90vh] bg-slate-900 border border-slate-700 rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+    <div class="relative w-full max-w-3xl max-h-[90vh] bg-slate-900 border border-slate-700 rounded-2xl shadow-2xl flex flex-col overflow-hidden">
       
       <!-- Modal Header -->
       <div class="p-4 sm:p-5 border-b border-slate-800 flex items-start justify-between gap-4 bg-slate-850">
@@ -277,40 +257,46 @@
 
       <!-- Modal Body -->
       <div class="flex-1 overflow-y-auto p-5 sm:p-6 space-y-4">
-        <!-- Image Preview if available -->
+        
+        <!-- Real Image Preview (Only if card has actual image, not avatar) -->
         <div id="modal-img-container" class="hidden">
           <img id="modal-img" src="" alt="Preview" class="max-h-80 w-auto mx-auto rounded-xl shadow-lg border border-slate-700 object-contain">
         </div>
 
-        <!-- Attachment info -->
-        <div id="modal-attachment" class="hidden p-3.5 bg-slate-800/80 rounded-xl border border-slate-700/80 flex items-center justify-between">
+        <!-- PDF Direct Download Banner (If card has PDF) -->
+        <div id="modal-pdf-banner" class="hidden p-4 bg-gradient-to-r from-rose-950/50 to-slate-850 border border-rose-500/40 rounded-xl flex flex-wrap items-center justify-between gap-3 shadow-md">
           <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold">
-              <i data-lucide="file-text" class="w-5 h-5"></i>
+            <div class="w-11 h-11 rounded-xl bg-rose-500/20 text-rose-400 flex items-center justify-center font-bold">
+              <i data-lucide="file-text" class="w-6 h-6"></i>
             </div>
             <div>
-              <div id="modal-att-name" class="text-sm font-medium text-slate-200"></div>
-              <div id="modal-att-cat" class="text-xs text-slate-400"></div>
+              <div id="modal-pdf-name" class="text-sm font-bold text-white"></div>
+              <div id="modal-pdf-size" class="text-xs text-rose-300"></div>
             </div>
           </div>
-          <a id="modal-att-btn" href="#" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold rounded-lg flex items-center gap-1.5 transition-colors">
-            <i data-lucide="external-link" class="w-3.5 h-3.5"></i> 開啟附件
-          </a>
+          <div class="flex items-center gap-2">
+            <a id="modal-pdf-view-btn" href="#" target="_blank" class="px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold rounded-lg flex items-center gap-1.5 border border-slate-700 transition-colors">
+              <i data-lucide="external-link" class="w-4 h-4"></i> 新分頁開啟
+            </a>
+            <a id="modal-pdf-dl-btn" href="#" download class="px-4 py-2 bg-rose-600 hover:bg-rose-500 text-white text-xs font-bold rounded-lg flex items-center gap-1.5 shadow-lg shadow-rose-950/50 transition-colors">
+              <i data-lucide="download" class="w-4 h-4"></i> 下載 PDF
+            </a>
+          </div>
         </div>
 
         <!-- Prompt Copy Action Bar (if prompt) -->
-        <div id="modal-prompt-actions" class="hidden p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center justify-between">
+        <div id="modal-prompt-actions" class="hidden p-3.5 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center justify-between">
           <div class="flex items-center gap-2 text-amber-300 text-xs font-medium">
             <i data-lucide="sparkles" class="w-4 h-4"></i>
             <span>這是 AI 協作提示詞指令，可直接複製至 ChatGPT / Claude / Gemini 執行</span>
           </div>
-          <button id="modal-copy-btn" onclick="copyModalPrompt()" class="px-3.5 py-1.5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs rounded-lg flex items-center gap-1.5 transition-colors shadow-sm">
-            <i data-lucide="copy" class="w-3.5 h-3.5"></i> 複製提示詞
+          <button id="modal-copy-btn" onclick="copyModalPrompt()" class="px-4 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs rounded-lg flex items-center gap-1.5 transition-colors shadow-md">
+            <i data-lucide="copy" class="w-4 h-4"></i> 複製提示詞
           </button>
         </div>
 
-        <!-- Content Body (Formatted) -->
-        <div id="modal-body" class="prose prose-invert max-w-none text-sm text-slate-300 leading-relaxed whitespace-pre-line bg-slate-950/40 p-4 rounded-xl border border-slate-800/60 font-sans">
+        <!-- Content Body (Formatted text) -->
+        <div id="modal-body" class="prose prose-invert max-w-none text-sm text-slate-200 leading-relaxed whitespace-pre-line bg-slate-950/40 p-4 rounded-xl border border-slate-800 font-sans">
         </div>
 
         <!-- Links List -->
@@ -406,7 +392,6 @@
     let currentSearchTerm = '';
     let currentModalCard = null;
 
-    // Initialize Gate on Load
     document.addEventListener('DOMContentLoaded', () => {
       lucide.createIcons();
       checkAuth();
@@ -439,7 +424,7 @@
       } else {
         errorMsg.classList.remove('hidden');
         box.classList.remove('animate-shake');
-        void box.offsetWidth; // trigger reflow
+        void box.offsetWidth;
         box.classList.add('animate-shake');
         input.focus();
         input.select();
@@ -467,7 +452,6 @@
       lucide.createIcons();
     }
 
-    // Populate Column Select Dropdown
     function populateColumnSelect() {
       const select = document.getElementById('column-select');
       window.PADLET_DATA.sections.forEach((s, idx) => {
@@ -493,38 +477,38 @@
       let visibleCardsTotal = 0;
 
       window.PADLET_DATA.sections.forEach((section, sIdx) => {
-        // Filter cards in this column
         const filteredCards = section.cards.filter(card => {
           // Category match
-          const catMatch = currentCategoryFilter === 'all' || card.category.key === currentCategoryFilter;
-          if (!catMatch) return false;
+          if (currentCategoryFilter === 'yellow' && !card.is_prompt) return false;
+          if (currentCategoryFilter === 'pdf' && !card.pdf_file) return false;
+          if (currentCategoryFilter === 'pure_text' && (card.imgs?.length > 0 || card.pdf_file)) return false;
 
           // Search term match
           if (!currentSearchTerm) return true;
           const term = currentSearchTerm.toLowerCase();
           const subjMatch = card.subject.toLowerCase().includes(term);
           const bodyMatch = card.body.toLowerCase().includes(term);
-          const attMatch = (card.att_name + ' ' + card.att_cat).toLowerCase().includes(term);
+          const attMatch = ((card.att_name || '') + ' ' + (card.att_cat || '')).toLowerCase().includes(term);
           return subjMatch || bodyMatch || attMatch;
         });
 
         visibleCardsTotal += filteredCards.length;
 
-        // Create column element
+        // Create column box
         const colDiv = document.createElement('div');
         colDiv.id = `col-${sIdx}`;
-        colDiv.className = 'w-72 sm:w-80 flex-none flex flex-col bg-slate-900/70 backdrop-blur-md rounded-2xl border border-slate-700/60 shadow-xl overflow-hidden column-container';
+        colDiv.className = 'w-72 sm:w-80 flex-none flex flex-col column-box rounded-2xl shadow-2xl overflow-hidden';
         
         // Column Header
         colDiv.innerHTML = `
-          <div class="p-3.5 border-b border-slate-800 bg-slate-850/80 flex items-center justify-between sticky top-0 z-10 backdrop-blur-sm">
+          <div class="p-3.5 border-b border-slate-700/60 bg-slate-900/90 flex items-center justify-between sticky top-0 z-10 backdrop-blur-md">
             <div class="flex items-center gap-2 overflow-hidden">
-              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
               <h3 class="font-bold text-sm text-slate-100 truncate" title="${section.section}">
                 ${section.section}
               </h3>
             </div>
-            <span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-slate-800 text-slate-400 border border-slate-700">
+            <span class="px-2 py-0.5 rounded-full text-xs font-bold bg-slate-800 text-slate-300 border border-slate-700">
               ${filteredCards.length}
             </span>
           </div>
@@ -560,37 +544,55 @@
       const cardDiv = document.createElement('div');
       cardDiv.className = `card-glass rounded-xl p-3.5 flex flex-col gap-2.5 cursor-pointer border ${card.category.borderClass}`;
       
-      // Highlight search
       const displaySubject = highlightText(card.subject, currentSearchTerm);
-      const displayBody = highlightText(card.body ? (card.body.length > 140 ? card.body.substring(0, 140) + '...' : card.body) : '', currentSearchTerm);
+      const displayBody = highlightText(card.body ? (card.body.length > 150 ? card.body.substring(0, 150) + '...' : card.body) : '', currentSearchTerm);
 
+      // REAL IMAGE ONLY (No avatars! If no real image, this is completely empty)
       let imageHtml = '';
       if (card.imgs && card.imgs.length > 0) {
         const firstImg = card.imgs[0];
         const src = firstImg.local_src || firstImg.src;
         imageHtml = `
-          <div class="relative overflow-hidden rounded-lg max-h-36 bg-slate-950/60 border border-slate-800">
+          <div class="relative overflow-hidden rounded-lg max-h-40 bg-slate-950/70 border border-slate-800">
             <img src="${src}" alt="${card.subject}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
           </div>
         `;
       }
 
-      let attachmentBadge = '';
-      if (card.att_name || card.att_cat) {
-        attachmentBadge = `
-          <div class="flex items-center gap-1.5 text-[11px] text-slate-400 bg-slate-800/80 px-2 py-1 rounded border border-slate-700/60">
-            <i data-lucide="paperclip" class="w-3 h-3 text-slate-400"></i>
-            <span class="truncate">${card.att_name || card.att_cat}</span>
+      // PDF DIRECT DOWNLOAD / OPEN BUTTON (If card has a PDF file)
+      let pdfHtml = '';
+      if (card.pdf_file) {
+        pdfHtml = `
+          <div class="mt-1 flex items-center gap-1.5">
+            <a 
+              href="${card.pdf_file}" 
+              target="_blank" 
+              onclick="event.stopPropagation();"
+              class="flex-1 py-1.5 px-2.5 bg-rose-500/20 hover:bg-rose-500/30 text-rose-300 border border-rose-500/40 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors"
+            >
+              <i data-lucide="file-text" class="w-3.5 h-3.5 text-rose-400"></i>
+              <span class="truncate">開啟 PDF (${card.pdf_size || '手冊'})</span>
+            </a>
+            <a 
+              href="${card.pdf_file}" 
+              download 
+              onclick="event.stopPropagation();" 
+              title="下載此 PDF"
+              class="p-1.5 bg-rose-600 hover:bg-rose-500 text-white rounded-lg transition-colors flex items-center justify-center shadow"
+            >
+              <i data-lucide="download" class="w-3.5 h-3.5"></i>
+            </a>
           </div>
         `;
       }
 
+      // PROMPT COPY ACTION (For AI prompt cards)
       let promptActionHtml = '';
       if (card.is_prompt) {
         promptActionHtml = `
           <button 
             onclick="event.stopPropagation(); copyPromptText(${JSON.stringify(card.body).replace(/"/g, '&quot;')})" 
-            class="w-full mt-1 py-1.5 px-3 bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors"
+            class="w-full mt-1 py-1.5 px-3 bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors shadow-sm"
           >
             <i data-lucide="copy" class="w-3.5 h-3.5"></i>
             <span>一鍵複製提示詞</span>
@@ -604,6 +606,7 @@
             ${card.category.name}
           </span>
           ${card.is_prompt ? '<span class="text-[10px] text-amber-400 font-mono flex items-center gap-1"><i data-lucide="sparkles" class="w-2.5 h-2.5"></i>Prompt</span>' : ''}
+          ${card.pdf_file ? '<span class="text-[10px] text-rose-400 font-bold flex items-center gap-1"><i data-lucide="file" class="w-2.5 h-2.5"></i>PDF</span>' : ''}
         </div>
 
         <h4 class="font-bold text-sm text-slate-100 leading-snug">
@@ -612,9 +615,9 @@
 
         ${imageHtml}
 
-        ${displayBody ? `<p class="text-xs text-slate-300/90 leading-relaxed font-sans line-clamp-4">${displayBody}</p>` : ''}
+        ${displayBody ? `<p class="text-xs text-slate-300 leading-relaxed font-sans line-clamp-5">${displayBody}</p>` : ''}
 
-        ${attachmentBadge}
+        ${pdfHtml}
 
         ${promptActionHtml}
       `;
@@ -623,14 +626,12 @@
       return cardDiv;
     }
 
-    // Highlight text helper
     function highlightText(text, query) {
       if (!query || !text) return text;
       const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
       return text.replace(regex, '<mark>$1</mark>');
     }
 
-    // Category Filter
     function filterCategory(catKey) {
       currentCategoryFilter = catKey;
       document.querySelectorAll('.cat-btn').forEach(btn => {
@@ -643,7 +644,6 @@
       renderBoard();
     }
 
-    // Search Filter
     function handleSearch(val) {
       currentSearchTerm = val.trim();
       const clearBtn = document.getElementById('clear-search-btn');
@@ -674,7 +674,7 @@
       badge.textContent = card.category.name;
       badge.className = `px-2.5 py-0.5 rounded text-xs font-semibold border ${card.category.badgeClass}`;
 
-      // Image
+      // Image Preview (Only if real image exists)
       const imgContainer = document.getElementById('modal-img-container');
       const imgEl = document.getElementById('modal-img');
       if (card.imgs && card.imgs.length > 0) {
@@ -684,21 +684,16 @@
         imgContainer.classList.add('hidden');
       }
 
-      // Attachment
-      const attBox = document.getElementById('modal-attachment');
-      if (card.att_name || card.att_cat) {
-        attBox.classList.remove('hidden');
-        document.getElementById('modal-att-name').textContent = card.att_name || '附件資源';
-        document.getElementById('modal-att-cat').textContent = card.att_caption || card.att_cat;
-        const btn = document.getElementById('modal-att-btn');
-        if (card.links && card.links.length > 0) {
-          btn.href = card.links[0].href;
-          btn.classList.remove('hidden');
-        } else {
-          btn.classList.add('hidden');
-        }
+      // PDF Banner
+      const pdfBanner = document.getElementById('modal-pdf-banner');
+      if (card.pdf_file) {
+        pdfBanner.classList.remove('hidden');
+        document.getElementById('modal-pdf-name').textContent = card.att_name || '完整 PDF 文件';
+        document.getElementById('modal-pdf-size').textContent = `檔案大小：${card.pdf_size || '高解析版'} · 支援本機離線讀取`;
+        document.getElementById('modal-pdf-view-btn').href = card.pdf_file;
+        document.getElementById('modal-pdf-dl-btn').href = card.pdf_file;
       } else {
-        attBox.classList.add('hidden');
+        pdfBanner.classList.add('hidden');
       }
 
       // Prompt Actions Bar
@@ -724,7 +719,7 @@
       if (card.links && card.links.length > 0) {
         const linkHead = document.createElement('div');
         linkHead.className = 'text-xs font-bold text-slate-400 mb-1';
-        linkHead.textContent = '相關連結與資源：';
+        linkHead.textContent = '相關外部連結：';
         linksContainer.appendChild(linkHead);
 
         card.links.forEach(l => {
@@ -748,7 +743,6 @@
       currentModalCard = null;
     }
 
-    // Copy Prompt Helper
     function copyPromptText(text) {
       if (!text) return;
       navigator.clipboard.writeText(text).then(() => {
@@ -779,12 +773,10 @@
       }, 3000);
     }
 
-    // Modal background close
     document.getElementById('card-modal').onclick = (e) => {
       if (e.target.id === 'card-modal') closeModal();
     };
 
-    // ESC key close modal
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') closeModal();
     });
